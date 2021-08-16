@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Roboto";
+    background-color: #152238;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#search-button{
+    color: white;
+    background-color: #24A0ED;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+#data {
+    color: white;
+}
