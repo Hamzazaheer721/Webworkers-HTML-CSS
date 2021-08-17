@@ -8,7 +8,9 @@ body{
     align-items: center;
     padding-top: 20px;
 }
-
+#button-container{
+    flex: 0.3
+}
 #search-button{
     color: white;
     background-color: #24A0ED;
@@ -17,8 +19,34 @@ body{
     border-radius: 10px;
     white-space: normal;
     word-wrap: break-word;
+
+}
+#container{
+    background: linear-gradient(45deg, #2193b0, #5f2c82);
+    margin-top: 50px;
+    flex:0.7;
+    min-height: 500px;
+    height: 600px;
+    width: 800px;
+    color: #d8d8d8;
+    border-radius: 5px;
+}
+#web-table{
+    width: 800px;
+    border-collapse: collapse;  /* turns table into single border */
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th{
+    font-weight: bold;
+}
+td{
+    font-weight: 100;
+}
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
 }
 
-#data {
-    color: white;
-}
