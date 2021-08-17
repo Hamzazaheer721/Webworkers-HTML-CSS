@@ -11,7 +11,7 @@ function fetchData() {
     let html = ""
     worker.postMessage(data)
     worker.onmessage = function (e){
-      document.getElementById("data").innerHTML = e.data;
+      
     }
   })
 }
