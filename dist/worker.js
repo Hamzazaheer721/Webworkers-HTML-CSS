@@ -6,6 +6,5 @@ onmessage = function(e){
 			dataArray.push(data[keys])
 		}
 	}
-	console.log(dataArray)
 	postMessage(dataArray)
 }
