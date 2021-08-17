@@ -29,6 +29,7 @@ body{
     height: 600px;
     width: 800px;
     border-radius: 5px;
+    margin-left: 20px;
 }
 #web-table{
     width: 800px;

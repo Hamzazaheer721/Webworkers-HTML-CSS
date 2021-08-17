@@ -1,8 +1,11 @@
 onmessage = function(e){
 	let data = e.data;
-	var html = "";
+	let dataArray = []
 	for (keys in data) {
-			html += data[keys]._id + "</br>";
+		if(data[keys].age < 21){
+			dataArray.push(data[keys])
+		}
 	}
-	postMessage(html)
+	console.log(dataArray)
+	postMessage(dataArray)
 }
